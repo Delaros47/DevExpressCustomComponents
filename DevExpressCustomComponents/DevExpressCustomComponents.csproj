@@ -38,6 +38,7 @@
     <Reference Include="DevExpress.Printing.v21.2.Core, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Utils.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -55,6 +56,42 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="CustomComponents\Components\MyCalcEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomComponents\Components\MyCheckEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomComponents\Components\MyCreditCardTextEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomComponents\Components\MyDateEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomComponents\Components\MyDataLayoutControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomComponents\Components\MyMemoEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomComponents\Components\MyPhoneNumberTextEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomComponents\Components\MyPictureEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomComponents\Components\MyPrivateCodeTextEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomComponents\Components\MySimpleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomComponents\Components\MySpinEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomComponents\Components\MyTextEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomComponents\Components\MyToggleSwitch.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Form1.cs">
